@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-add = __import__('10-add').add
-
-        print(add(1, 2))
-                print(add(98, 0))
-                        print(add(100, -2))
+for i in range(97, 123):
+    if i == 101 or i == 113:
+        continue
+    print('{:c}'.format(i), end="")

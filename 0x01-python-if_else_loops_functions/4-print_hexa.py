@@ -1,7 +1,3 @@
 #!/usr/bin/python3
-for a in reversed(range(97, 123)):
-if a % 2 == 1:
-char = a - 32
-else:
-char = a
-print('{:c}'.format(char), end='')
+for num in range(0, 99):
+    print('{:d} = 0x{:x}'.format(num, num))

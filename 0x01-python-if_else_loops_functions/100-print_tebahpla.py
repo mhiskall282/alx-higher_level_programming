@@ -4,5 +4,4 @@ for a in reversed(range(97, 123)):
         char = a - 32
     else:
         char = a
-        print('{:c}'.format(char), end='')
-
+    print('{:c}'.format(char), end='')

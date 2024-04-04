@@ -1,4 +1,5 @@
 #include "lists.h"
+
 /**
  *  * check_cycle - function that finds the loop in linked list
  *   * @list: pointer of the node
